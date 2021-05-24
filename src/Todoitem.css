@@ -1,0 +1,12 @@
+.item-btns {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  width: 400px;
+  justify-content: flex-end;
+}
+
+.item-btns input {
+  width: 40px;
+  height: 40px;
+  margin: 0 5px;
+}
