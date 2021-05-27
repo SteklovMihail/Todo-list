@@ -1,12 +1,34 @@
-.item-btns {
-  display: inline-flex;
-  flex-wrap: nowrap;
-  width: 400px;
-  justify-content: flex-end;
+.Todoitem {
+  display: flex;
+ justify-content: space-between;
+ margin-bottom: 10px;
+}
+#items-list {
+  margin: 0 25%;
+}
+.add-item {
+  display: flex;
+  align-items:flex-start;
+  justify-content: space-around;
+  margin: 0 25%;
+  padding-right: 5px;
+}
+
+#add-item-input {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+  
 }
 
 .item-btns input {
   width: 40px;
   height: 40px;
   margin: 0 5px;
+}
+.add-item-btn {
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
